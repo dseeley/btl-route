@@ -4,12 +4,13 @@ var app = angular.module('app', [
     'btlRoute'
 ]);
 
-app.config(['$locationProvider', function ($locationProvider)
+app.config(['btlRouteProvider', '$locationProvider', function (btlRouteProvider, $locationProvider)
     {
+        // btlRouteProvider.printDebug(true);
+        // btlRouteProvider.ignoreNested(false);
 
         // $locationProvider.html5Mode(true);
         $locationProvider.hashPrefix('!');
-
     }]);
 
 app.controller('appController', ['$scope', '$window', 'btlRoute', 'timerService', function ($scope, $window, btlRoute, timerService)
