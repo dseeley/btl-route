@@ -1,4 +1,4 @@
-##btl-route: Bootstrap-Tabs-Live-Route
+## btl-route: Bootstrap-Tabs-Live-Route
 
 A tabbed routing engine for AngularJS/ Bootstrap3
 
